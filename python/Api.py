@@ -33,6 +33,10 @@ def getKeys():
 def getData():
 	inputjson = request.json
 	
+	
+	
+	y = json.loads(x)
+	
 	output = app.findMatchingDiseases(inputjson)
 	return output
 	
