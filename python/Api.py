@@ -31,9 +31,9 @@ def getKeys():
 
 @app.route('/api/getdata', methods=['GET', 'POST'])
 def getData():
-	# inputjson = request.json
+	inputjson = request.json
 	
-	output = app.findMatchingDiseases(jsoninput)
+	output = app.findMatchingDiseases(inputjson)
 	return output
 	
 app.run()
