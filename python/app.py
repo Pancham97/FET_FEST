@@ -58,5 +58,3 @@ def main():
     # display some lines
 
     print(findMatchingDiseases("(sleeplessness)|(asthenia)"))
-
-main()
