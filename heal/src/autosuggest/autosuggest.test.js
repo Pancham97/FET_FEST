@@ -1,10 +1,10 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Card from './Card';
+import Autosuggest from './autosuggest';
 
-describe('<Card />', () => {
+describe('<Autosuggest />', () => {
   test('renders', () => {
-    const wrapper = shallow(<Card />);
+    const wrapper = shallow(<Autosuggest />);
     expect(wrapper).toMatchSnapshot();
   });
 });
